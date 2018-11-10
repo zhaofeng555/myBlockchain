@@ -28,3 +28,7 @@ func NewBlock(data string, preBlockHash []byte) *Block {
 
 	return &block
 }
+
+func (block *Block) SetHash() {
+
+}
